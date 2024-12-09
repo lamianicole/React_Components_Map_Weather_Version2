@@ -1,0 +1,56 @@
+body {
+    font-family: 'Arial, sans-serif';
+    background-color: #282a36;
+    color: #f8f8f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container Wochenansicht */
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    max-width: 1000px;
+}
+
+/* Tag-Komponente */
+.wrap-tag {
+    background-color: #510580;
+    border: 2px solid #bd93f9;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    width: 150px;
+}
+
+.wrap-tag:hover {
+    transform: scale(1.1);
+    background-color: #05561a;
+    border-color: #02530c;
+}
+
+.wrap-tag h3 {
+    font-size: 1.5em;
+    margin: 0;
+    color: #8be9fd;
+}
+
+.wrap-tag h1 {
+    font-size: 2.5em;
+    margin: 10px 0;
+    color: #ffb86c;
+}
+
+.wrap-tag p {
+    margin: 5px 0;
+    color: #f1fa8c;
+}
